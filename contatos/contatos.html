@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imports</title>
+    <title>Contatos - Imports</title>
     <link rel="stylesheet" href="../HEADER.css">
     <link rel="stylesheet" href="style.css">
 
@@ -21,7 +21,7 @@
         <div id="info">
             <ul>
                 <li><a href="../index.html" id="info1">Home</a></li>
-                <li><a href="../contatos/contatos.html" id="info2">Contatos</a></li>
+                <li><a href="contatos.html" id="info2">Contatos</a></li>
                 <li><a href="" id="info3">Produtos</a></li>
                 <li><a href="" id="info4">Loja</a></li>
                 <li><a href="../info/info.html" id="info5">Info</a></li>
@@ -29,11 +29,28 @@
             </ul>
         </div>
         
-            <a href="cart.html"><img src="icones/cart/2x/outline_shopping_cart_white_24dp.png" alt=""></a>
+            <a href="../cart/cart.html"><img src="icones/cart/2x/outline_shopping_cart_white_24dp.png" alt=""></a>
         
     </header>
-    
 
+
+    <section>
+        <div id="tittle1">
+            <h1>Como podemos te ajudar ?</h1>
+            <br>
+            <h5>Escreva um breve resumo incluindo seu nome e email para podermos entrar em contato logo.</h5>
+        </div>
+
+        <div id="prod">
+            <form action="https://formsubmit.co/paulogalleazzo1@gmail.com" method="POST" id="form">
+                <input type="text" name="name" placeholder="Nome:" required>
+                <input type="email" name="email" placeholder="Email:" required>
+                <textarea name="message" placeholder="Sua mensagem:"></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit">Enviar</button>
+           </form>
+        </div>
+    </section>
 
     <script src="../header.js"></script>
 </body>
